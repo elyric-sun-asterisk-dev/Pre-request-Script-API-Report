@@ -485,7 +485,7 @@
                     </li>
                     <li class="nav-item bg-danger" data-toggle="tooltip" title="Click to view the Failed Tests">
                         <a class="nav-link text-white" id="pills-failed-tab" data-toggle="pill" href="#pills-failed" role="tab" aria-controls="pills-failed" aria-selected="false">Failed Tests <span
-								class="badge badge-light">4</span></a>
+								class="badge badge-light">0</span></a>
                     </li>
                     <li class="nav-item bg-warning" data-toggle="tooltip" title="Click to view the Skipped Tests">
                         <a class="nav-link text-white" id="pills-skipped-tab" data-toggle="pill" href="#pills-skipped" role="tab" aria-controls="pills-skipped" aria-selected="false">Skipped Tests <span
@@ -497,11 +497,11 @@
                         <div class="row">
                             <div class="col-md-9 col-lg-12 main">
                                 <h1 class="display-2 text-center">Pre-request Script API Report</h1>
-                                <h5 class="text-center">Friday, 19 August 2022 23:29:06</h5>
+                                <h5 class="text-center">Friday, 19 August 2022 23:39:55</h5>
                                 <div class="row">
                                     <div class="col-lg-3 col-md-6">
                                         <div class="card text-white card-success">
-                                            <div class="card-body bg-danger">
+                                            <div class="card-body bg-success">
                                                 <div class="rotate">
                                                     <i class="fa fa-retweet fa-5x"></i>
                                                 </div>
@@ -523,12 +523,12 @@
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <div class="card text-white card-info">
-                                            <div class="card-body bg-danger">
+                                            <div class="card-body bg-success">
                                                 <div class="rotate">
                                                     <i class="fa fa-plus-circle fa-5x"></i>
                                                 </div>
                                                 <h6 class="text-uppercase">Total Failed Tests</h6>
-                                                <h1 class="display-1">4</h1>
+                                                <h1 class="display-1">0</h1>
                                             </div>
                                         </div>
                                     </div>
@@ -568,11 +568,11 @@
                                                         <h5 class="card-title text-uppercase text-white text-center bg-info">
                                                             Timings and Data</h5>
                                                         <span><i class="fas fa-stopwatch"></i></span><strong> Total run
-															duration:</strong> 272ms<br>
+															duration:</strong> 2.2s<br>
                                                         <span><i class="fas fa-database"></i></span><strong> Total data
-															received:</strong> 0B<br>
+															received:</strong> 1.96KB<br>
                                                         <span><i class="fas fa-stopwatch"></i></span><strong> Average
-															response time:</strong> 0ms<br>
+															response time:</strong> 664ms<br>
                                                     </div>
                                                 </div>
                                             </div>
@@ -592,19 +592,19 @@
                                                             <tr>
                                                                 <td>Requests</td>
                                                                 <td class="text-center">3</td>
-                                                                <td class="text-center">3</td>
+                                                                <td class="text-center">0</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>Prerequest Scripts</td>
-                                                                <td class="text-center">1</td>
+                                                                <td class="text-center">4</td>
                                                                 <td class="text-center">0</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>Test Scripts</td>
-                                                                <td class="text-center">1</td>
-                                                                <td class="text-center">1</td>
+                                                                <td class="text-center">4</td>
+                                                                <td class="text-center">0</td>
                                                             </tr>
-                                                            <tr class="table-danger">
+                                                            <tr class="">
                                                                 <td>Assertions</td>
                                                                 <td class="text-center">0</td>
                                                                 <td class="text-center">0</td>
@@ -628,106 +628,10 @@
                     <div class="tab-pane fade" id="pills-failed" role="tabcard" aria-labelledby="pills-failed-tab">
                         <button id="topOfFailuresScreen" class="btn btn-outline-success btn-sm backToTop" onclick="topFunction()">Go To Top</button>
 
-                        <div class="btn-group float-right" role="group" aria-label="Button Group">
-                            <button id="openAllFailed" class="btn btn-outline-success btn-sm float-right" style="text-align: center; width: 185px;">Expand All Failed Tests</button>
-                        </div>
-                        <br>
-                        <br>
-
-                        <div class="alert alert-danger text-uppercase text-center">
-                            <h4>Showing 4 Failures</h4>
-                        </div>
-                        <div class="col-sm-12 mb-3">
-                            <div class="card-deck">
-                                <div class="card border-danger">
-                                    <div class="card-header bg-danger">
-                                        <a data-toggle="collapse" href="#" data-target="#fails-collapse-afb947b3-71b6-4889-a055-009aa2af4c00" aria-expanded="false" aria-controls="collapse" id="fails-afb947b3-71b6-4889-a055-009aa2af4c00" class="collapsed text-white z-block">
-											Iteration 1 - Error - Pre-request scripts - All boards Copy <i
-												class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-										</a>
-                                    </div>
-                                    <div id="fails-collapse-afb947b3-71b6-4889-a055-009aa2af4c00" class="collapse" aria-labelledby="fails-afb947b3-71b6-4889-a055-009aa2af4c00">
-                                        <div class="card-body">
-                                            <h5><strong>Failed Test:</strong> </h5>
-                                            <hr>
-                                            <h5 class="card-title text-uppercase text-white text-center bg-danger">
-                                                Assertion Error Message</h5>
-                                            <div>
-                                                <pre><code >getaddrinfo ENOTFOUND {{domain}}</code></pre>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 mb-3">
-                            <div class="card-deck">
-                                <div class="card border-danger">
-                                    <div class="card-header bg-danger">
-                                        <a data-toggle="collapse" href="#" data-target="#fails-collapse-86b41470-e134-48de-9aae-fe787601d3ed" aria-expanded="false" aria-controls="collapse" id="fails-86b41470-e134-48de-9aae-fe787601d3ed" class="collapsed text-white z-block">
-											Iteration 1 - Error - Pre-request scripts - Create board Copy <i
-												class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-										</a>
-                                    </div>
-                                    <div id="fails-collapse-86b41470-e134-48de-9aae-fe787601d3ed" class="collapse" aria-labelledby="fails-86b41470-e134-48de-9aae-fe787601d3ed">
-                                        <div class="card-body">
-                                            <h5><strong>Failed Test:</strong> </h5>
-                                            <hr>
-                                            <h5 class="card-title text-uppercase text-white text-center bg-danger">
-                                                Assertion Error Message</h5>
-                                            <div>
-                                                <pre><code >getaddrinfo ENOTFOUND {{domain}}</code></pre>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 mb-3">
-                            <div class="card-deck">
-                                <div class="card border-danger">
-                                    <div class="card-header bg-danger">
-                                        <a data-toggle="collapse" href="#" data-target="#fails-collapse-1ee922f4-df73-412e-b917-f00ce9a0dd71" aria-expanded="false" aria-controls="collapse" id="fails-1ee922f4-df73-412e-b917-f00ce9a0dd71" class="collapsed text-white z-block">
-											Iteration 1 - JSONError - Pre-request scripts - Create board Copy <i
-												class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-										</a>
-                                    </div>
-                                    <div id="fails-collapse-1ee922f4-df73-412e-b917-f00ce9a0dd71" class="collapse" aria-labelledby="fails-1ee922f4-df73-412e-b917-f00ce9a0dd71">
-                                        <div class="card-body">
-                                            <h5><strong>Failed Test:</strong> </h5>
-                                            <hr>
-                                            <h5 class="card-title text-uppercase text-white text-center bg-danger">
-                                                Assertion Error Message</h5>
-                                            <div>
-                                                <pre><code >Unexpected token u in JSON at position 0</code></pre>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 mb-3">
-                            <div class="card-deck">
-                                <div class="card border-danger">
-                                    <div class="card-header bg-danger">
-                                        <a data-toggle="collapse" href="#" data-target="#fails-collapse-8250dbd6-b3b6-4419-b057-75dedc48ee85" aria-expanded="false" aria-controls="collapse" id="fails-8250dbd6-b3b6-4419-b057-75dedc48ee85" class="collapsed text-white z-block">
-											Iteration 1 - Error - Pre-request scripts - Delete a board Copy <i
-												class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-										</a>
-                                    </div>
-                                    <div id="fails-collapse-8250dbd6-b3b6-4419-b057-75dedc48ee85" class="collapse" aria-labelledby="fails-8250dbd6-b3b6-4419-b057-75dedc48ee85">
-                                        <div class="card-body">
-                                            <h5><strong>Failed Test:</strong> </h5>
-                                            <hr>
-                                            <h5 class="card-title text-uppercase text-white text-center bg-danger">
-                                                Assertion Error Message</h5>
-                                            <div>
-                                                <pre><code >getaddrinfo ENOTFOUND {{domain}}</code></pre>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="alert alert-success text-uppercase text-center">
+                            <br><br>
+                            <h1 class="text-center">There are no failed tests <span><i
+										class="far fa-thumbs-up"></i></span></h1><br><br>
                         </div>
                     </div>
 
@@ -745,7 +649,6 @@
                         <button id="topOfRequestsScreen" class="btn btn-outline-success btn-sm backToTop" onclick="topFunction()">Go To Top</button>
 
                         <div class="btn-group float-right" role="group" aria-label="Button Group">
-                            <button id="showOnlyFailures" class="btn btn-outline-success btn-sm float-right" style="text-align: center; width:160px;">Show Failed Iterations</button>
                             <button id="openAll" class="btn btn-outline-success btn-sm float-right" style="text-align: center; width: 140px;">Expand Folders</button>
                             <button id="openAllRequests" class="btn btn-outline-success btn-sm float-right" style="text-align: center; width: 140px;">Expand Requests</button>
                         </div>
@@ -760,18 +663,18 @@
                         </div>
                         <h6 class="text-uppercase text-muted" id="iterationSelected" style="padding-top: 10px;"></h6>
                         <div class="tab-content" id="execution-data">
-                            <div id="folder-a93d402f-28fb-40d5-8688-fdec261e6367" class="card-deck iteration-0">
+                            <div id="folder-e29d1d56-e3cc-431f-98ae-369d6211c9df" class="card-deck iteration-0">
                                 <div class="row iteration-0">
                                     <div class="col-sm-12 mb-3 iteration-0">
                                         <div class="card iteration-0">
                                             <div class="card-header  bg-success iteration-0">
-                                                <a data-toggle="collapse" href="#" data-target="#collapse-a93d402f-28fb-40d5-8688-fdec261e6367" aria-expanded="false" aria-controls="collapse" id="requests-a93d402f-28fb-40d5-8688-fdec261e6367" class="collapsed text-white z-block">
+                                                <a data-toggle="collapse" href="#" data-target="#collapse-e29d1d56-e3cc-431f-98ae-369d6211c9df" aria-expanded="false" aria-controls="collapse" id="requests-e29d1d56-e3cc-431f-98ae-369d6211c9df" class="collapsed text-white z-block">
 													Iteration: 1 - All boards Copy <i
 														class="float-lg-right fa fa-chevron-down"
 														style="padding-top: 5px;"></i>
 												</a>
                                             </div>
-                                            <div id="collapse-a93d402f-28fb-40d5-8688-fdec261e6367" class="collapse" aria-labelledby="requests-a93d402f-28fb-40d5-8688-fdec261e6367">
+                                            <div id="collapse-e29d1d56-e3cc-431f-98ae-369d6211c9df" class="collapse" aria-labelledby="requests-e29d1d56-e3cc-431f-98ae-369d6211c9df">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col-sm-12 mb-3">
@@ -786,7 +689,7 @@
 																			GET</span><br>
                                                                         <span><i
 																				class="fas fa-info-circle"></i></span><strong>
-																			Request URL:</strong> <a href="http://{{domain}}/1/members/me/boards?key&#x3D;{{key}}&amp;token&#x3D;{{token}}&amp;fields&#x3D;name" target="_blank">http://{{domain}}/1/members/me/boards?key&#x3D;{{key}}&amp;token&#x3D;{{token}}&amp;fields&#x3D;name</a><br>
+																			Request URL:</strong> <a href="https://api.trello.com/1/members/me/boards?key&#x3D;7966caae429b7efff0ebe3b48fd8c234&amp;token&#x3D;aa80a4f25fc5e30c797b960cc4717bef7b7777c74d05d800c9836110a7ac706f&amp;fields&#x3D;name" target="_blank">https://api.trello.com/1/members/me/boards?key&#x3D;7966caae429b7efff0ebe3b48fd8c234&amp;token&#x3D;aa80a4f25fc5e30c797b960cc4717bef7b7777c74d05d800c9836110a7ac706f&amp;fields&#x3D;name</a><br>
                                                                     </div>
                                                                 </div>
                                                                 <div class="card border-info" style="width: 50rem;">
@@ -796,15 +699,15 @@
                                                                         <span><i
 																				class="fas fa-info-circle"></i></span><strong>
 																			Response Code:</strong> <span class="float-right badge-outline badge badge-success">
-																			- </span><br>
+																			200 - OK</span><br>
                                                                         <span><i
 																				class="fas fa-stopwatch"></i></span><strong>
 																			Mean time per request:</strong> <span class="float-right badge-outline badge badge-success">
-																			0ms</span><br>
+																			726ms</span><br>
                                                                         <span><i
 																				class="fas fa-database"></i></span><strong>
 																			Mean size per request:</strong> <span class="float-right badge-outline badge badge-success">
-																			0B</span><br>
+																			253B</span><br>
                                                                         <hr>
                                                                         <h5 class="card-title text-uppercase text-white text-center bg-info">
                                                                             Test Pass Percentage</h5>
@@ -859,14 +762,14 @@
                                                                                         <td class="text-nowrap">
                                                                                             Postman-Token</td>
                                                                                         <td class="text-wrap">
-                                                                                            4114e094-200e-4683-9a89-fa71b8b39974
+                                                                                            62fef731-49f0-4772-8c1b-0804005364e1
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <td class="text-nowrap">Host
                                                                                         </td>
-                                                                                        <td class="text-wrap">{{domain}}
-                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            api.trello.com</td>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <td class="text-nowrap">
@@ -894,6 +797,285 @@
                                                                     <div class="card-body">
                                                                         <h5 class="card-title text-uppercase text-white text-center bg-info">
                                                                             Response Headers</h5>
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered">
+                                                                                <thead class="thead-light text-center">
+                                                                                    <tr>
+                                                                                        <th>Header Name</th>
+                                                                                        <th>Header Value</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Date
+                                                                                        </td>
+                                                                                        <td class="text-wrap">Fri, 19 Aug 2022 15:39:52 GMT</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Content-Type</td>
+                                                                                        <td class="text-wrap">
+                                                                                            application/json; charset&#x3D;utf-8
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Content-Length</td>
+                                                                                        <td class="text-wrap">253</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Dns-Prefetch-Control</td>
+                                                                                        <td class="text-wrap">off</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Frame-Options</td>
+                                                                                        <td class="text-wrap">DENY</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Download-Options</td>
+                                                                                        <td class="text-wrap">noopen
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Permitted-Cross-Domain-Policies
+                                                                                        </td>
+                                                                                        <td class="text-wrap">none</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Referrer-Policy</td>
+                                                                                        <td class="text-wrap">
+                                                                                            strict-origin-when-cross-origin
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Surrogate-Control</td>
+                                                                                        <td class="text-wrap">no-store
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Cache-Control</td>
+                                                                                        <td class="text-wrap">
+                                                                                            max-age&#x3D;0, must-revalidate, no-cache, no-store
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Pragma
+                                                                                        </td>
+                                                                                        <td class="text-wrap">no-cache
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Expires
+                                                                                        </td>
+                                                                                        <td class="text-wrap">Thu, 01 Jan 1970 00:00:00</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Trello-Version</td>
+                                                                                        <td class="text-wrap">1.149571.0
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Trello-Environment</td>
+                                                                                        <td class="text-wrap">Production (Micros)
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Set-Cookie</td>
+                                                                                        <td class="text-wrap">
+                                                                                            dsc&#x3D;4bf890d9ea9bedc228d87d0c7d82f3a14b8e5c2be3f1a9ea4f01dcbbbe6bf9da; Path&#x3D;/; Expires&#x3D;Mon, 22 Aug 2022 15:39:52 GMT; Secure
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Set-Cookie</td>
+                                                                                        <td class="text-wrap">
+                                                                                            preAuthProps&#x3D;s%3A6205c935fb17561ee7d67b8f%3AisEnterpriseAdmin%3Dfalse.8sfL2woLzZOwY%2BS8Ppwvymc6jpTqVBbBikA%2F474MEPA; Path&#x3D;/; HttpOnly</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Allow-Origin
+                                                                                        </td>
+                                                                                        <td class="text-wrap">*</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Allow-Methods
+                                                                                        </td>
+                                                                                        <td class="text-wrap">GET, PUT, POST, DELETE</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Allow-Headers
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            Authorization, Accept, Content-Type
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Expose-Headers
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Token-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">10000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Token-Max
+                                                                                        </td>
+                                                                                        <td class="text-wrap">100</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Token-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">99</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Db-Query-Time-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">600000
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Db-Query-Time-Max
+                                                                                        </td>
+                                                                                        <td class="text-wrap">7200000
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Db-Query-Time-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">7199990
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Key-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">10000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Key-Max
+                                                                                        </td>
+                                                                                        <td class="text-wrap">300</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Key-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">299</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Member-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">10000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Member-Max</td>
+                                                                                        <td class="text-wrap">375</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Member-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">374</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Server-Time</td>
+                                                                                        <td class="text-wrap">
+                                                                                            1660923592163</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Trello-Actual-Fastget-Path
+                                                                                        </td>
+                                                                                        <td class="text-wrap">fast</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Envoy-Upstream-Service-Time
+                                                                                        </td>
+                                                                                        <td class="text-wrap">283</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Server
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            globaledge-envoy</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Expect-Ct</td>
+                                                                                        <td class="text-wrap">
+                                                                                            report-uri&#x3D;&quot;https://web-security-reports.services.atlassian.com/expect-ct-report/trello-edge&quot;, max-age&#x3D;86400
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Strict-Transport-Security
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            max-age&#x3D;63072000; preload
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Content-Type-Options</td>
+                                                                                        <td class="text-wrap">nosniff
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Xss-Protection</td>
+                                                                                        <td class="text-wrap">1; mode&#x3D;block
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Atl-Traceid</td>
+                                                                                        <td class="text-wrap">
+                                                                                            41d8dbcfa34aa307</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Report-To</td>
+                                                                                        <td class="text-wrap">
+                                                                                            {&quot;group&quot;: &quot;endpoint-1&quot;, &quot;max_age&quot;: 600, &quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;include_subdomains&quot;: true}
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Nel</td>
+                                                                                        <td class="text-wrap">
+                                                                                            {&quot;report_to&quot;: &quot;endpoint-1&quot;, &quot;max_age&quot;: 600, &quot;include_subdomains&quot;: true, &quot;failure_fraction&quot;: 0.001}
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -906,8 +1088,13 @@
                                                                     <div class="card-body">
                                                                         <h5 class="card-title text-uppercase text-white text-center bg-info">
                                                                             Response Body</h5>
-                                                                        <h5 class="alert alert-success text-uppercase text-center">
-                                                                            No Response Body for this request</h5>
+                                                                        <div class="dyn-height">
+                                                                            <pre><code id="copyText-ff2688b8-c621-4f9e-993c-3797961fffbf" class="prettyPrint">[{&quot;id&quot;:&quot;62314ca11ba4c409d4284e39&quot;,&quot;name&quot;:&quot;4L WEB Libero - Manatad &amp; Bentazal&quot;},{&quot;id&quot;:&quot;62ffac0adc4d660057c69b9b&quot;,&quot;name&quot;:&quot;My Board - 468&quot;},{&quot;id&quot;:&quot;62ff712ce17f8c00a2983e2f&quot;,&quot;name&quot;:&quot;My Board - 648&quot;},{&quot;id&quot;:&quot;62ff71317864b7005394a891&quot;,&quot;name&quot;:&quot;My Board - 766&quot;}]</code></pre>
+                                                                        </div>
+                                                                        <div class="card-footer">
+                                                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-ff2688b8-c621-4f9e-993c-3797961fffbf">Copy
+																				to Clipboard</button>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -929,18 +1116,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="folder-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd" class="card-deck iteration-0">
+                            <div id="folder-4f595863-9222-4f29-a077-a2dfe207c756" class="card-deck iteration-0">
                                 <div class="row iteration-0">
                                     <div class="col-sm-12 mb-3 iteration-0">
                                         <div class="card iteration-0">
                                             <div class="card-header  bg-success iteration-0">
-                                                <a data-toggle="collapse" href="#" data-target="#collapse-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd" aria-expanded="false" aria-controls="collapse" id="requests-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd" class="collapsed text-white z-block">
+                                                <a data-toggle="collapse" href="#" data-target="#collapse-4f595863-9222-4f29-a077-a2dfe207c756" aria-expanded="false" aria-controls="collapse" id="requests-4f595863-9222-4f29-a077-a2dfe207c756" class="collapsed text-white z-block">
 													Iteration: 1 - Create board Copy <i
 														class="float-lg-right fa fa-chevron-down"
 														style="padding-top: 5px;"></i>
 												</a>
                                             </div>
-                                            <div id="collapse-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd" class="collapse" aria-labelledby="requests-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd">
+                                            <div id="collapse-4f595863-9222-4f29-a077-a2dfe207c756" class="collapse" aria-labelledby="requests-4f595863-9222-4f29-a077-a2dfe207c756">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col-sm-12 mb-3">
@@ -955,7 +1142,7 @@
 																			POST</span><br>
                                                                         <span><i
 																				class="fas fa-info-circle"></i></span><strong>
-																			Request URL:</strong> <a href="http://{{domain}}/1/boards/?name&#x3D;My%20Board%20-%20507&amp;key&#x3D;{{key}}&amp;token&#x3D;{{token}}" target="_blank">http://{{domain}}/1/boards/?name&#x3D;My%20Board%20-%20507&amp;key&#x3D;{{key}}&amp;token&#x3D;{{token}}</a><br>
+																			Request URL:</strong> <a href="https://api.trello.com/1/boards/?name&#x3D;My%20Board%20-%20586&amp;key&#x3D;7966caae429b7efff0ebe3b48fd8c234&amp;token&#x3D;aa80a4f25fc5e30c797b960cc4717bef7b7777c74d05d800c9836110a7ac706f" target="_blank">https://api.trello.com/1/boards/?name&#x3D;My%20Board%20-%20586&amp;key&#x3D;7966caae429b7efff0ebe3b48fd8c234&amp;token&#x3D;aa80a4f25fc5e30c797b960cc4717bef7b7777c74d05d800c9836110a7ac706f</a><br>
                                                                     </div>
                                                                 </div>
                                                                 <div class="card border-info" style="width: 50rem;">
@@ -965,15 +1152,15 @@
                                                                         <span><i
 																				class="fas fa-info-circle"></i></span><strong>
 																			Response Code:</strong> <span class="float-right badge-outline badge badge-success">
-																			- </span><br>
+																			200 - OK</span><br>
                                                                         <span><i
 																				class="fas fa-stopwatch"></i></span><strong>
 																			Mean time per request:</strong> <span class="float-right badge-outline badge badge-success">
-																			0ms</span><br>
+																			517ms</span><br>
                                                                         <span><i
 																				class="fas fa-database"></i></span><strong>
 																			Mean size per request:</strong> <span class="float-right badge-outline badge badge-success">
-																			0B</span><br>
+																			1.7KB</span><br>
                                                                         <hr>
                                                                         <h5 class="card-title text-uppercase text-white text-center bg-info">
                                                                             Test Pass Percentage</h5>
@@ -1028,14 +1215,14 @@
                                                                                         <td class="text-nowrap">
                                                                                             Postman-Token</td>
                                                                                         <td class="text-wrap">
-                                                                                            97ae017a-d6e3-4500-b49d-c727bc7924c5
+                                                                                            e57b719b-4462-42ff-bfd2-2d87226242f8
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <td class="text-nowrap">Host
                                                                                         </td>
-                                                                                        <td class="text-wrap">{{domain}}
-                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            api.trello.com</td>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <td class="text-nowrap">
@@ -1047,6 +1234,18 @@
                                                                                             Connection</td>
                                                                                         <td class="text-wrap">keep-alive
                                                                                         </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Cookie
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            dsc&#x3D;4bf890d9ea9bedc228d87d0c7d82f3a14b8e5c2be3f1a9ea4f01dcbbbe6bf9da; preAuthProps&#x3D;s%3A6205c935fb17561ee7d67b8f%3AisEnterpriseAdmin%3Dfalse.8sfL2woLzZOwY%2BS8Ppwvymc6jpTqVBbBikA%2F474MEPA
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Content-Length</td>
+                                                                                        <td class="text-wrap">0</td>
                                                                                     </tr>
                                                                                 </tbody>
                                                                             </table>
@@ -1063,6 +1262,296 @@
                                                                     <div class="card-body">
                                                                         <h5 class="card-title text-uppercase text-white text-center bg-info">
                                                                             Response Headers</h5>
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered">
+                                                                                <thead class="thead-light text-center">
+                                                                                    <tr>
+                                                                                        <th>Header Name</th>
+                                                                                        <th>Header Value</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Date
+                                                                                        </td>
+                                                                                        <td class="text-wrap">Fri, 19 Aug 2022 15:39:52 GMT</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Content-Type</td>
+                                                                                        <td class="text-wrap">
+                                                                                            application/json; charset&#x3D;utf-8
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Content-Length</td>
+                                                                                        <td class="text-wrap">1737</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Dns-Prefetch-Control</td>
+                                                                                        <td class="text-wrap">off</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Frame-Options</td>
+                                                                                        <td class="text-wrap">DENY</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Download-Options</td>
+                                                                                        <td class="text-wrap">noopen
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Permitted-Cross-Domain-Policies
+                                                                                        </td>
+                                                                                        <td class="text-wrap">none</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Referrer-Policy</td>
+                                                                                        <td class="text-wrap">
+                                                                                            strict-origin-when-cross-origin
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Surrogate-Control</td>
+                                                                                        <td class="text-wrap">no-store
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Cache-Control</td>
+                                                                                        <td class="text-wrap">
+                                                                                            max-age&#x3D;0, must-revalidate, no-cache, no-store
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Pragma
+                                                                                        </td>
+                                                                                        <td class="text-wrap">no-cache
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Expires
+                                                                                        </td>
+                                                                                        <td class="text-wrap">Thu, 01 Jan 1970 00:00:00</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Trello-Version</td>
+                                                                                        <td class="text-wrap">1.149571.0
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Trello-Environment</td>
+                                                                                        <td class="text-wrap">Production (Micros)
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Allow-Origin
+                                                                                        </td>
+                                                                                        <td class="text-wrap">*</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Allow-Methods
+                                                                                        </td>
+                                                                                        <td class="text-wrap">GET, PUT, POST, DELETE</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Allow-Headers
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            Authorization, Accept, Content-Type
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Expose-Headers
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Token-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">10000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Token-Max
+                                                                                        </td>
+                                                                                        <td class="text-wrap">100</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Token-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">98</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Db-Query-Time-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">600000
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Db-Query-Time-Max
+                                                                                        </td>
+                                                                                        <td class="text-wrap">7200000
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Db-Query-Time-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">7199990
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Action-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">3600000
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Action-Max</td>
+                                                                                        <td class="text-wrap">15000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Action-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">14999</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Key-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">10000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Key-Max
+                                                                                        </td>
+                                                                                        <td class="text-wrap">300</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Key-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">298</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Member-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">10000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Member-Max</td>
+                                                                                        <td class="text-wrap">375</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Member-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">373</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Set-Cookie</td>
+                                                                                        <td class="text-wrap">
+                                                                                            preAuthProps&#x3D;s%3A6205c935fb17561ee7d67b8f%3AisEnterpriseAdmin%3Dfalse.8sfL2woLzZOwY%2BS8Ppwvymc6jpTqVBbBikA%2F474MEPA; Path&#x3D;/; HttpOnly</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Server-Time</td>
+                                                                                        <td class="text-wrap">
+                                                                                            1660923592815</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Trello-Api-Org-Selected
+                                                                                        </td>
+                                                                                        <td class="text-wrap">true</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Envoy-Upstream-Service-Time
+                                                                                        </td>
+                                                                                        <td class="text-wrap">375</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Server
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            globaledge-envoy</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Expect-Ct</td>
+                                                                                        <td class="text-wrap">
+                                                                                            report-uri&#x3D;&quot;https://web-security-reports.services.atlassian.com/expect-ct-report/trello-edge&quot;, max-age&#x3D;86400
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Strict-Transport-Security
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            max-age&#x3D;63072000; preload
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Content-Type-Options</td>
+                                                                                        <td class="text-wrap">nosniff
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Xss-Protection</td>
+                                                                                        <td class="text-wrap">1; mode&#x3D;block
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Atl-Traceid</td>
+                                                                                        <td class="text-wrap">
+                                                                                            f5a685be02c1c469</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Report-To</td>
+                                                                                        <td class="text-wrap">
+                                                                                            {&quot;group&quot;: &quot;endpoint-1&quot;, &quot;max_age&quot;: 600, &quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;include_subdomains&quot;: true}
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Nel</td>
+                                                                                        <td class="text-wrap">
+                                                                                            {&quot;report_to&quot;: &quot;endpoint-1&quot;, &quot;max_age&quot;: 600, &quot;include_subdomains&quot;: true, &quot;failure_fraction&quot;: 0.001}
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1075,8 +1564,13 @@
                                                                     <div class="card-body">
                                                                         <h5 class="card-title text-uppercase text-white text-center bg-info">
                                                                             Response Body</h5>
-                                                                        <h5 class="alert alert-success text-uppercase text-center">
-                                                                            No Response Body for this request</h5>
+                                                                        <div class="dyn-height">
+                                                                            <pre><code id="copyText-8f08fe3d-6bf9-409e-960e-6046c5e2642c" class="prettyPrint">{&quot;id&quot;:&quot;62ffaec8f26755001e961845&quot;,&quot;name&quot;:&quot;My Board - 586&quot;,&quot;desc&quot;:&quot;&quot;,&quot;descData&quot;:null,&quot;closed&quot;:false,&quot;idOrganization&quot;:&quot;62fcc0c0869a5300edbc767d&quot;,&quot;idEnterprise&quot;:null,&quot;pinned&quot;:false,&quot;url&quot;:&quot;https://trello.com/b/hrWXllHl/my-board-586&quot;,&quot;shortUrl&quot;:&quot;https://trello.com/b/hrWXllHl&quot;,&quot;prefs&quot;:{&quot;permissionLevel&quot;:&quot;private&quot;,&quot;hideVotes&quot;:false,&quot;voting&quot;:&quot;disabled&quot;,&quot;comments&quot;:&quot;members&quot;,&quot;invitations&quot;:&quot;members&quot;,&quot;selfJoin&quot;:true,&quot;cardCovers&quot;:true,&quot;isTemplate&quot;:false,&quot;cardAging&quot;:&quot;regular&quot;,&quot;calendarFeedEnabled&quot;:false,&quot;hiddenPluginBoardButtons&quot;:[],&quot;switcherViews&quot;:[{&quot;_id&quot;:&quot;62ffaec8f26755001e961846&quot;,&quot;viewType&quot;:&quot;Board&quot;,&quot;enabled&quot;:true},{&quot;_id&quot;:&quot;62ffaec8f26755001e961847&quot;,&quot;viewType&quot;:&quot;Table&quot;,&quot;enabled&quot;:true},{&quot;_id&quot;:&quot;62ffaec8f26755001e961848&quot;,&quot;viewType&quot;:&quot;Calendar&quot;,&quot;enabled&quot;:false},{&quot;_id&quot;:&quot;62ffaec8f26755001e961849&quot;,&quot;viewType&quot;:&quot;Dashboard&quot;,&quot;enabled&quot;:false},{&quot;_id&quot;:&quot;62ffaec8f26755001e96184a&quot;,&quot;viewType&quot;:&quot;Timeline&quot;,&quot;enabled&quot;:false},{&quot;_id&quot;:&quot;62ffaec8f26755001e96184b&quot;,&quot;viewType&quot;:&quot;Map&quot;,&quot;enabled&quot;:false}],&quot;background&quot;:&quot;blue&quot;,&quot;backgroundColor&quot;:&quot;#0079BF&quot;,&quot;backgroundImage&quot;:null,&quot;backgroundImageScaled&quot;:null,&quot;backgroundTile&quot;:false,&quot;backgroundBrightness&quot;:&quot;dark&quot;,&quot;backgroundBottomColor&quot;:&quot;#0079BF&quot;,&quot;backgroundTopColor&quot;:&quot;#0079BF&quot;,&quot;canBePublic&quot;:true,&quot;canBeEnterprise&quot;:true,&quot;canBeOrg&quot;:true,&quot;canBePrivate&quot;:true,&quot;canInvite&quot;:true},&quot;labelNames&quot;:{&quot;green&quot;:&quot;&quot;,&quot;yellow&quot;:&quot;&quot;,&quot;orange&quot;:&quot;&quot;,&quot;red&quot;:&quot;&quot;,&quot;purple&quot;:&quot;&quot;,&quot;blue&quot;:&quot;&quot;,&quot;sky&quot;:&quot;&quot;,&quot;lime&quot;:&quot;&quot;,&quot;pink&quot;:&quot;&quot;,&quot;black&quot;:&quot;&quot;,&quot;green_dark&quot;:&quot;&quot;,&quot;yellow_dark&quot;:&quot;&quot;,&quot;orange_dark&quot;:&quot;&quot;,&quot;red_dark&quot;:&quot;&quot;,&quot;purple_dark&quot;:&quot;&quot;,&quot;blue_dark&quot;:&quot;&quot;,&quot;sky_dark&quot;:&quot;&quot;,&quot;lime_dark&quot;:&quot;&quot;,&quot;pink_dark&quot;:&quot;&quot;,&quot;black_dark&quot;:&quot;&quot;,&quot;green_light&quot;:&quot;&quot;,&quot;yellow_light&quot;:&quot;&quot;,&quot;orange_light&quot;:&quot;&quot;,&quot;red_light&quot;:&quot;&quot;,&quot;purple_light&quot;:&quot;&quot;,&quot;blue_light&quot;:&quot;&quot;,&quot;sky_light&quot;:&quot;&quot;,&quot;lime_light&quot;:&quot;&quot;,&quot;pink_light&quot;:&quot;&quot;,&quot;black_light&quot;:&quot;&quot;},&quot;limits&quot;:{}}</code></pre>
+                                                                        </div>
+                                                                        <div class="card-footer">
+                                                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-8f08fe3d-6bf9-409e-960e-6046c5e2642c">Copy
+																				to Clipboard</button>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1098,18 +1592,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="folder-896435fc-8190-4088-9ddc-4a3565a141bd" class="card-deck iteration-0">
+                            <div id="folder-56b498a2-3dd0-4126-8b6a-378a67a79bb7" class="card-deck iteration-0">
                                 <div class="row iteration-0">
                                     <div class="col-sm-12 mb-3 iteration-0">
                                         <div class="card iteration-0">
                                             <div class="card-header  bg-success iteration-0">
-                                                <a data-toggle="collapse" href="#" data-target="#collapse-896435fc-8190-4088-9ddc-4a3565a141bd" aria-expanded="false" aria-controls="collapse" id="requests-896435fc-8190-4088-9ddc-4a3565a141bd" class="collapsed text-white z-block">
+                                                <a data-toggle="collapse" href="#" data-target="#collapse-56b498a2-3dd0-4126-8b6a-378a67a79bb7" aria-expanded="false" aria-controls="collapse" id="requests-56b498a2-3dd0-4126-8b6a-378a67a79bb7" class="collapsed text-white z-block">
 													Iteration: 1 - Delete a board Copy <i
 														class="float-lg-right fa fa-chevron-down"
 														style="padding-top: 5px;"></i>
 												</a>
                                             </div>
-                                            <div id="collapse-896435fc-8190-4088-9ddc-4a3565a141bd" class="collapse" aria-labelledby="requests-896435fc-8190-4088-9ddc-4a3565a141bd">
+                                            <div id="collapse-56b498a2-3dd0-4126-8b6a-378a67a79bb7" class="collapse" aria-labelledby="requests-56b498a2-3dd0-4126-8b6a-378a67a79bb7">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col-sm-12 mb-3">
@@ -1124,7 +1618,7 @@
 																			DELETE</span><br>
                                                                         <span><i
 																				class="fas fa-info-circle"></i></span><strong>
-																			Request URL:</strong> <a href="http://{{domain}}/1/boards/62ff6f2ea940ce001eeada05?key&#x3D;{{key}}&amp;token&#x3D;{{token}}" target="_blank">http://{{domain}}/1/boards/62ff6f2ea940ce001eeada05?key&#x3D;{{key}}&amp;token&#x3D;{{token}}</a><br>
+																			Request URL:</strong> <a href="https://api.trello.com/1/boards/62ffac0adc4d660057c69b9b?key&#x3D;7966caae429b7efff0ebe3b48fd8c234&amp;token&#x3D;aa80a4f25fc5e30c797b960cc4717bef7b7777c74d05d800c9836110a7ac706f" target="_blank">https://api.trello.com/1/boards/62ffac0adc4d660057c69b9b?key&#x3D;7966caae429b7efff0ebe3b48fd8c234&amp;token&#x3D;aa80a4f25fc5e30c797b960cc4717bef7b7777c74d05d800c9836110a7ac706f</a><br>
                                                                     </div>
                                                                 </div>
                                                                 <div class="card border-info" style="width: 50rem;">
@@ -1134,15 +1628,15 @@
                                                                         <span><i
 																				class="fas fa-info-circle"></i></span><strong>
 																			Response Code:</strong> <span class="float-right badge-outline badge badge-success">
-																			- </span><br>
+																			200 - OK</span><br>
                                                                         <span><i
 																				class="fas fa-stopwatch"></i></span><strong>
 																			Mean time per request:</strong> <span class="float-right badge-outline badge badge-success">
-																			0ms</span><br>
+																			751ms</span><br>
                                                                         <span><i
 																				class="fas fa-database"></i></span><strong>
 																			Mean size per request:</strong> <span class="float-right badge-outline badge badge-success">
-																			0B</span><br>
+																			16B</span><br>
                                                                         <hr>
                                                                         <h5 class="card-title text-uppercase text-white text-center bg-info">
                                                                             Test Pass Percentage</h5>
@@ -1197,14 +1691,14 @@
                                                                                         <td class="text-nowrap">
                                                                                             Postman-Token</td>
                                                                                         <td class="text-wrap">
-                                                                                            36024374-74cc-49d9-98ef-114f8dcec4c1
+                                                                                            93ff3019-39fb-4053-ad06-27226d4e9397
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <td class="text-nowrap">Host
                                                                                         </td>
-                                                                                        <td class="text-wrap">{{domain}}
-                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            api.trello.com</td>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <td class="text-nowrap">
@@ -1215,6 +1709,13 @@
                                                                                         <td class="text-nowrap">
                                                                                             Connection</td>
                                                                                         <td class="text-wrap">keep-alive
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Cookie
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            dsc&#x3D;4bf890d9ea9bedc228d87d0c7d82f3a14b8e5c2be3f1a9ea4f01dcbbbe6bf9da; preAuthProps&#x3D;s%3A6205c935fb17561ee7d67b8f%3AisEnterpriseAdmin%3Dfalse.8sfL2woLzZOwY%2BS8Ppwvymc6jpTqVBbBikA%2F474MEPA
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -1232,6 +1733,290 @@
                                                                     <div class="card-body">
                                                                         <h5 class="card-title text-uppercase text-white text-center bg-info">
                                                                             Response Headers</h5>
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered">
+                                                                                <thead class="thead-light text-center">
+                                                                                    <tr>
+                                                                                        <th>Header Name</th>
+                                                                                        <th>Header Value</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Date
+                                                                                        </td>
+                                                                                        <td class="text-wrap">Fri, 19 Aug 2022 15:39:53 GMT</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Content-Type</td>
+                                                                                        <td class="text-wrap">
+                                                                                            application/json; charset&#x3D;utf-8
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Content-Length</td>
+                                                                                        <td class="text-wrap">16</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Dns-Prefetch-Control</td>
+                                                                                        <td class="text-wrap">off</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Frame-Options</td>
+                                                                                        <td class="text-wrap">DENY</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Download-Options</td>
+                                                                                        <td class="text-wrap">noopen
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Permitted-Cross-Domain-Policies
+                                                                                        </td>
+                                                                                        <td class="text-wrap">none</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Referrer-Policy</td>
+                                                                                        <td class="text-wrap">
+                                                                                            strict-origin-when-cross-origin
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Surrogate-Control</td>
+                                                                                        <td class="text-wrap">no-store
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Cache-Control</td>
+                                                                                        <td class="text-wrap">
+                                                                                            max-age&#x3D;0, must-revalidate, no-cache, no-store
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Pragma
+                                                                                        </td>
+                                                                                        <td class="text-wrap">no-cache
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Expires
+                                                                                        </td>
+                                                                                        <td class="text-wrap">Thu, 01 Jan 1970 00:00:00</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Trello-Version</td>
+                                                                                        <td class="text-wrap">1.149571.0
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Trello-Environment</td>
+                                                                                        <td class="text-wrap">Production (Micros)
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Allow-Origin
+                                                                                        </td>
+                                                                                        <td class="text-wrap">*</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Allow-Methods
+                                                                                        </td>
+                                                                                        <td class="text-wrap">GET, PUT, POST, DELETE</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Allow-Headers
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            Authorization, Accept, Content-Type
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Access-Control-Expose-Headers
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Token-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">10000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Token-Max
+                                                                                        </td>
+                                                                                        <td class="text-wrap">100</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Token-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">97</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Db-Query-Time-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">600000
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Db-Query-Time-Max
+                                                                                        </td>
+                                                                                        <td class="text-wrap">7200000
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Db-Query-Time-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">7199990
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Action-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">3600000
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Action-Max</td>
+                                                                                        <td class="text-wrap">15000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Action-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">14999</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Key-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">10000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Key-Max
+                                                                                        </td>
+                                                                                        <td class="text-wrap">300</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Api-Key-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">297</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Member-Interval-Ms
+                                                                                        </td>
+                                                                                        <td class="text-wrap">10000</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Member-Max</td>
+                                                                                        <td class="text-wrap">375</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Rate-Limit-Member-Remaining
+                                                                                        </td>
+                                                                                        <td class="text-wrap">372</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Set-Cookie</td>
+                                                                                        <td class="text-wrap">
+                                                                                            preAuthProps&#x3D;s%3A6205c935fb17561ee7d67b8f%3AisEnterpriseAdmin%3Dfalse.8sfL2woLzZOwY%2BS8Ppwvymc6jpTqVBbBikA%2F474MEPA; Path&#x3D;/; HttpOnly</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Server-Time</td>
+                                                                                        <td class="text-wrap">
+                                                                                            1660923593647</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Envoy-Upstream-Service-Time
+                                                                                        </td>
+                                                                                        <td class="text-wrap">623</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Server
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            globaledge-envoy</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Expect-Ct</td>
+                                                                                        <td class="text-wrap">
+                                                                                            report-uri&#x3D;&quot;https://web-security-reports.services.atlassian.com/expect-ct-report/trello-edge&quot;, max-age&#x3D;86400
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Strict-Transport-Security
+                                                                                        </td>
+                                                                                        <td class="text-wrap">
+                                                                                            max-age&#x3D;63072000; preload
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Content-Type-Options</td>
+                                                                                        <td class="text-wrap">nosniff
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            X-Xss-Protection</td>
+                                                                                        <td class="text-wrap">1; mode&#x3D;block
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Atl-Traceid</td>
+                                                                                        <td class="text-wrap">
+                                                                                            b2a3b0338f785c84</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">
+                                                                                            Report-To</td>
+                                                                                        <td class="text-wrap">
+                                                                                            {&quot;group&quot;: &quot;endpoint-1&quot;, &quot;max_age&quot;: 600, &quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;include_subdomains&quot;: true}
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="text-nowrap">Nel</td>
+                                                                                        <td class="text-wrap">
+                                                                                            {&quot;report_to&quot;: &quot;endpoint-1&quot;, &quot;max_age&quot;: 600, &quot;include_subdomains&quot;: true, &quot;failure_fraction&quot;: 0.001}
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1244,8 +2029,14 @@
                                                                     <div class="card-body">
                                                                         <h5 class="card-title text-uppercase text-white text-center bg-info">
                                                                             Response Body</h5>
-                                                                        <h5 class="alert alert-success text-uppercase text-center">
-                                                                            No Response Body for this request</h5>
+                                                                        <div class="dyn-height">
+                                                                            <pre><code id="copyText-5643a4be-85f6-49bd-8b8f-ea40c27b1c62" class="prettyPrint">{&quot;_value&quot;:null}
+        </code></pre>
+                                                                        </div>
+                                                                        <div class="card-footer">
+                                                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-5643a4be-85f6-49bd-8b8f-ea40c27b1c62">Copy
+																				to Clipboard</button>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1357,33 +2148,33 @@
             let clickCount = $(this).data("clickCount") || 1
             switch (clickCount) {
                 case 1:
-                    $('#requests-a93d402f-28fb-40d5-8688-fdec261e6367').removeClass('collapsed')
-                    $('#collapse-a93d402f-28fb-40d5-8688-fdec261e6367').removeClass('collapsed')
-                    $('#requests-a93d402f-28fb-40d5-8688-fdec261e6367').addClass('show')
-                    $('#collapse-a93d402f-28fb-40d5-8688-fdec261e6367').addClass('show')
-                    $('#requests-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').removeClass('collapsed')
-                    $('#collapse-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').removeClass('collapsed')
-                    $('#requests-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').addClass('show')
-                    $('#collapse-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').addClass('show')
-                    $('#requests-896435fc-8190-4088-9ddc-4a3565a141bd').removeClass('collapsed')
-                    $('#collapse-896435fc-8190-4088-9ddc-4a3565a141bd').removeClass('collapsed')
-                    $('#requests-896435fc-8190-4088-9ddc-4a3565a141bd').addClass('show')
-                    $('#collapse-896435fc-8190-4088-9ddc-4a3565a141bd').addClass('show')
+                    $('#requests-e29d1d56-e3cc-431f-98ae-369d6211c9df').removeClass('collapsed')
+                    $('#collapse-e29d1d56-e3cc-431f-98ae-369d6211c9df').removeClass('collapsed')
+                    $('#requests-e29d1d56-e3cc-431f-98ae-369d6211c9df').addClass('show')
+                    $('#collapse-e29d1d56-e3cc-431f-98ae-369d6211c9df').addClass('show')
+                    $('#requests-4f595863-9222-4f29-a077-a2dfe207c756').removeClass('collapsed')
+                    $('#collapse-4f595863-9222-4f29-a077-a2dfe207c756').removeClass('collapsed')
+                    $('#requests-4f595863-9222-4f29-a077-a2dfe207c756').addClass('show')
+                    $('#collapse-4f595863-9222-4f29-a077-a2dfe207c756').addClass('show')
+                    $('#requests-56b498a2-3dd0-4126-8b6a-378a67a79bb7').removeClass('collapsed')
+                    $('#collapse-56b498a2-3dd0-4126-8b6a-378a67a79bb7').removeClass('collapsed')
+                    $('#requests-56b498a2-3dd0-4126-8b6a-378a67a79bb7').addClass('show')
+                    $('#collapse-56b498a2-3dd0-4126-8b6a-378a67a79bb7').addClass('show')
                     $('#openAllRequests').html("Collapse Requests");
                     break;
                 case 2:
-                    $('#requests-a93d402f-28fb-40d5-8688-fdec261e6367').addClass('collapsed')
-                    $('#collapse-a93d402f-28fb-40d5-8688-fdec261e6367').addClass('collapsed')
-                    $('#requests-a93d402f-28fb-40d5-8688-fdec261e6367').removeClass('show')
-                    $('#collapse-a93d402f-28fb-40d5-8688-fdec261e6367').removeClass('show')
-                    $('#requests-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').addClass('collapsed')
-                    $('#collapse-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').addClass('collapsed')
-                    $('#requests-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').removeClass('show')
-                    $('#collapse-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').removeClass('show')
-                    $('#requests-896435fc-8190-4088-9ddc-4a3565a141bd').addClass('collapsed')
-                    $('#collapse-896435fc-8190-4088-9ddc-4a3565a141bd').addClass('collapsed')
-                    $('#requests-896435fc-8190-4088-9ddc-4a3565a141bd').removeClass('show')
-                    $('#collapse-896435fc-8190-4088-9ddc-4a3565a141bd').removeClass('show')
+                    $('#requests-e29d1d56-e3cc-431f-98ae-369d6211c9df').addClass('collapsed')
+                    $('#collapse-e29d1d56-e3cc-431f-98ae-369d6211c9df').addClass('collapsed')
+                    $('#requests-e29d1d56-e3cc-431f-98ae-369d6211c9df').removeClass('show')
+                    $('#collapse-e29d1d56-e3cc-431f-98ae-369d6211c9df').removeClass('show')
+                    $('#requests-4f595863-9222-4f29-a077-a2dfe207c756').addClass('collapsed')
+                    $('#collapse-4f595863-9222-4f29-a077-a2dfe207c756').addClass('collapsed')
+                    $('#requests-4f595863-9222-4f29-a077-a2dfe207c756').removeClass('show')
+                    $('#collapse-4f595863-9222-4f29-a077-a2dfe207c756').removeClass('show')
+                    $('#requests-56b498a2-3dd0-4126-8b6a-378a67a79bb7').addClass('collapsed')
+                    $('#collapse-56b498a2-3dd0-4126-8b6a-378a67a79bb7').addClass('collapsed')
+                    $('#requests-56b498a2-3dd0-4126-8b6a-378a67a79bb7').removeClass('show')
+                    $('#collapse-56b498a2-3dd0-4126-8b6a-378a67a79bb7').removeClass('show')
                     $('#openAllRequests').html("Expand Requests");
                     break;
             }
@@ -1399,33 +2190,33 @@
             let clickCount = $(this).data("clickCount") || 1
             switch (clickCount) {
                 case 1:
-                    $('#skipped-a93d402f-28fb-40d5-8688-fdec261e6367').removeClass('collapsed')
-                    $('#skipped-collapse-a93d402f-28fb-40d5-8688-fdec261e6367').removeClass('collapsed')
-                    $('#skipped-a93d402f-28fb-40d5-8688-fdec261e6367').addClass('show')
-                    $('#skipped-collapse-a93d402f-28fb-40d5-8688-fdec261e6367').addClass('show')
-                    $('#skipped-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').removeClass('collapsed')
-                    $('#skipped-collapse-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').removeClass('collapsed')
-                    $('#skipped-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').addClass('show')
-                    $('#skipped-collapse-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').addClass('show')
-                    $('#skipped-896435fc-8190-4088-9ddc-4a3565a141bd').removeClass('collapsed')
-                    $('#skipped-collapse-896435fc-8190-4088-9ddc-4a3565a141bd').removeClass('collapsed')
-                    $('#skipped-896435fc-8190-4088-9ddc-4a3565a141bd').addClass('show')
-                    $('#skipped-collapse-896435fc-8190-4088-9ddc-4a3565a141bd').addClass('show')
+                    $('#skipped-e29d1d56-e3cc-431f-98ae-369d6211c9df').removeClass('collapsed')
+                    $('#skipped-collapse-e29d1d56-e3cc-431f-98ae-369d6211c9df').removeClass('collapsed')
+                    $('#skipped-e29d1d56-e3cc-431f-98ae-369d6211c9df').addClass('show')
+                    $('#skipped-collapse-e29d1d56-e3cc-431f-98ae-369d6211c9df').addClass('show')
+                    $('#skipped-4f595863-9222-4f29-a077-a2dfe207c756').removeClass('collapsed')
+                    $('#skipped-collapse-4f595863-9222-4f29-a077-a2dfe207c756').removeClass('collapsed')
+                    $('#skipped-4f595863-9222-4f29-a077-a2dfe207c756').addClass('show')
+                    $('#skipped-collapse-4f595863-9222-4f29-a077-a2dfe207c756').addClass('show')
+                    $('#skipped-56b498a2-3dd0-4126-8b6a-378a67a79bb7').removeClass('collapsed')
+                    $('#skipped-collapse-56b498a2-3dd0-4126-8b6a-378a67a79bb7').removeClass('collapsed')
+                    $('#skipped-56b498a2-3dd0-4126-8b6a-378a67a79bb7').addClass('show')
+                    $('#skipped-collapse-56b498a2-3dd0-4126-8b6a-378a67a79bb7').addClass('show')
                     $('#openAllSkipped').html("Collapse All Skipped Tests");
                     break;
                 case 2:
-                    $('#skipped-a93d402f-28fb-40d5-8688-fdec261e6367').addClass('collapsed')
-                    $('#skipped-collapse-a93d402f-28fb-40d5-8688-fdec261e6367').addClass('collapsed')
-                    $('#skipped-a93d402f-28fb-40d5-8688-fdec261e6367').removeClass('show')
-                    $('#skipped-collapse-a93d402f-28fb-40d5-8688-fdec261e6367').removeClass('show')
-                    $('#skipped-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').addClass('collapsed')
-                    $('#skipped-collapse-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').addClass('collapsed')
-                    $('#skipped-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').removeClass('show')
-                    $('#skipped-collapse-e22b43f8-2aa6-4d02-8e65-e5d4a7c65acd').removeClass('show')
-                    $('#skipped-896435fc-8190-4088-9ddc-4a3565a141bd').addClass('collapsed')
-                    $('#skipped-collapse-896435fc-8190-4088-9ddc-4a3565a141bd').addClass('collapsed')
-                    $('#skipped-896435fc-8190-4088-9ddc-4a3565a141bd').removeClass('show')
-                    $('#skipped-collapse-896435fc-8190-4088-9ddc-4a3565a141bd').removeClass('show')
+                    $('#skipped-e29d1d56-e3cc-431f-98ae-369d6211c9df').addClass('collapsed')
+                    $('#skipped-collapse-e29d1d56-e3cc-431f-98ae-369d6211c9df').addClass('collapsed')
+                    $('#skipped-e29d1d56-e3cc-431f-98ae-369d6211c9df').removeClass('show')
+                    $('#skipped-collapse-e29d1d56-e3cc-431f-98ae-369d6211c9df').removeClass('show')
+                    $('#skipped-4f595863-9222-4f29-a077-a2dfe207c756').addClass('collapsed')
+                    $('#skipped-collapse-4f595863-9222-4f29-a077-a2dfe207c756').addClass('collapsed')
+                    $('#skipped-4f595863-9222-4f29-a077-a2dfe207c756').removeClass('show')
+                    $('#skipped-collapse-4f595863-9222-4f29-a077-a2dfe207c756').removeClass('show')
+                    $('#skipped-56b498a2-3dd0-4126-8b6a-378a67a79bb7').addClass('collapsed')
+                    $('#skipped-collapse-56b498a2-3dd0-4126-8b6a-378a67a79bb7').addClass('collapsed')
+                    $('#skipped-56b498a2-3dd0-4126-8b6a-378a67a79bb7').removeClass('show')
+                    $('#skipped-collapse-56b498a2-3dd0-4126-8b6a-378a67a79bb7').removeClass('show')
                     $('#openAllSkipped').html("Expand All Skipped Tests");
                     break;
             }
@@ -1443,57 +2234,9 @@
             let failedItemHeading
             switch (clickCount) {
                 case 1:
-                    failedItemHeading = $('#fails-afb947b3-71b6-4889-a055-009aa2af4c00');
-                    failedItemContent = $("#fails-collapse-afb947b3-71b6-4889-a055-009aa2af4c00");
-                    failedItemHeading.removeClass('collapsed')
-                    failedItemContent.removeClass('collapsed')
-                    failedItemHeading.addClass('show')
-                    failedItemContent.addClass('show')
-                    failedItemHeading = $('#fails-86b41470-e134-48de-9aae-fe787601d3ed');
-                    failedItemContent = $("#fails-collapse-86b41470-e134-48de-9aae-fe787601d3ed");
-                    failedItemHeading.removeClass('collapsed')
-                    failedItemContent.removeClass('collapsed')
-                    failedItemHeading.addClass('show')
-                    failedItemContent.addClass('show')
-                    failedItemHeading = $('#fails-1ee922f4-df73-412e-b917-f00ce9a0dd71');
-                    failedItemContent = $("#fails-collapse-1ee922f4-df73-412e-b917-f00ce9a0dd71");
-                    failedItemHeading.removeClass('collapsed')
-                    failedItemContent.removeClass('collapsed')
-                    failedItemHeading.addClass('show')
-                    failedItemContent.addClass('show')
-                    failedItemHeading = $('#fails-8250dbd6-b3b6-4419-b057-75dedc48ee85');
-                    failedItemContent = $("#fails-collapse-8250dbd6-b3b6-4419-b057-75dedc48ee85");
-                    failedItemHeading.removeClass('collapsed')
-                    failedItemContent.removeClass('collapsed')
-                    failedItemHeading.addClass('show')
-                    failedItemContent.addClass('show')
                     $('#openAllFailed').html("Collapse All Failed Tests");
                     break;
                 case 2:
-                    failedItemHeading = $('#fails-afb947b3-71b6-4889-a055-009aa2af4c00');
-                    failedItemContent = $("#fails-collapse-afb947b3-71b6-4889-a055-009aa2af4c00");
-                    failedItemHeading.removeClass('show')
-                    failedItemContent.removeClass('show')
-                    failedItemHeading.addClass('collapsed')
-                    failedItemContent.addClass('collapsed')
-                    failedItemHeading = $('#fails-86b41470-e134-48de-9aae-fe787601d3ed');
-                    failedItemContent = $("#fails-collapse-86b41470-e134-48de-9aae-fe787601d3ed");
-                    failedItemHeading.removeClass('show')
-                    failedItemContent.removeClass('show')
-                    failedItemHeading.addClass('collapsed')
-                    failedItemContent.addClass('collapsed')
-                    failedItemHeading = $('#fails-1ee922f4-df73-412e-b917-f00ce9a0dd71');
-                    failedItemContent = $("#fails-collapse-1ee922f4-df73-412e-b917-f00ce9a0dd71");
-                    failedItemHeading.removeClass('show')
-                    failedItemContent.removeClass('show')
-                    failedItemHeading.addClass('collapsed')
-                    failedItemContent.addClass('collapsed')
-                    failedItemHeading = $('#fails-8250dbd6-b3b6-4419-b057-75dedc48ee85');
-                    failedItemContent = $("#fails-collapse-8250dbd6-b3b6-4419-b057-75dedc48ee85");
-                    failedItemHeading.removeClass('show')
-                    failedItemContent.removeClass('show')
-                    failedItemHeading.addClass('collapsed')
-                    failedItemContent.addClass('collapsed')
                     $('#openAllFailed').html("Expand All Failed Tests");
                     break;
             }
@@ -1617,8 +2360,6 @@
                 document.getElementById("openAllRequests").style.display = "none";
 
 
-                document.getElementById("showOnlyFailures").style.display = "none";
-                document.getElementById("openAllFailed").style.display = "none";
             } else {
                 document.getElementById("topOfRequestsScreen").style.display = "none";
                 document.getElementById("topOfFailuresScreen").style.display = "none";
@@ -1626,8 +2367,6 @@
                 document.getElementById("openAll").style.display = "block";
                 document.getElementById("openAllRequests").style.display = "block";
 
-                document.getElementById("showOnlyFailures").style.display = "block";
-                document.getElementById("openAllFailed").style.display = "block";
             }
         }
 
